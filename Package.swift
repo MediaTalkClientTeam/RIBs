@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "RIBs", targets: ["RIBs"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .revision("a82518285848456f404abba1919120161465ea9f")),
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .revision("61e9cff0613854430cbd252f66883b1f4fb0892d")),
     ],
     targets: [
         .target(
